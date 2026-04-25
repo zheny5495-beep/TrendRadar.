@@ -487,9 +487,9 @@ ai:
   
   model: "deepseek/deepseek-chat"
 
-  api_key: ""                       # API Key（建议使用环境变量 AI_API_KEY）
+  api_key: "OpenAI"                       # API Key（建议使用环境变量 AI_API_KEY）
   
-  api_base: ""                      # 自定义 API 端点（可选，大多数情况留空）
+  api_base: "openai"                      # 自定义 API 端点（可选，大多数情况留空）
                                     # 示例: https://api.openai.com/v1（自建代理或兼容接口）
                                     #
                                     # 💡 超级重要：连接任意兼容 OpenAI 协议的模型商
